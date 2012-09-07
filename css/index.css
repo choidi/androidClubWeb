@@ -1,0 +1,196 @@
+
+body {
+ 	padding-top: 60px;
+ }
+
+#about_content h1{
+	text-align:center;
+}
+
+#about_content img{
+	width:500px;
+	height:400px;
+	margin-left:150px;
+	margin-bottom:-10px;
+}
+
+#about_content p{
+	text-indent:2em;
+	line-height:180%;
+	margin-top:-60px;
+}
+
+h5{
+	text-align:center;
+}
+
+#cover,#each_project_title{
+		color:floralwhite;
+		margin-top:300px;
+		text-align:center;
+		font-family: 'Tangerine', serif;
+  		font-size: 48px;
+  	text-shadow: 4px 4px 4px #aaa;
+}
+
+#each_project_title{
+	margin-top:50px;
+}
+
+#each_project_content{
+	font-size:15px;
+	margin-left:30px;
+	margin-right:30px;
+	text-indent:2em;
+}
+
+#magazine{
+	width:1152px;
+	height:1200px;
+}
+#magazine li{
+	color:floralwhite;
+	font-size:20px;
+}
+#magazine .turn-page{
+	width:576px;
+	height:1200px;
+	background-color:#ccc;
+	background-size:100% 100%;
+}
+
+#gallery{
+	/* The pics container */
+
+	height:700px;
+	position:relative;
+}
+
+.pic, .pic a{
+	/* Each picture and the hyperlink inside it */
+	width:150px;
+	height:150px;
+	overflow:hidden;
+}
+
+.pic{
+	/* Styles specific to the pic class */
+	position:absolute;
+	border:5px solid #EEEEEE;
+	border-bottom:18px solid #eeeeee;
+	
+	/* CSS3 Box Shadow */
+	-moz-box-shadow:2px 2px 3px #333333;
+	-webkit-box-shadow:2px 2px 3px #333333;
+	box-shadow:2px 2px 3px #333333;
+}
+
+.pic a{
+	/* Specific styles for the hyperlinks */
+	text-indent:-999px;
+	display:block;
+	/* Setting display to block enables advanced styling for links */
+}
+
+.share_left {
+	width: 30%;
+	float: left;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.share_right {
+	float: right;
+	width: 70%;
+}
+
+footer p{
+	margin-left:450px;
+}
+
+#slideshow{
+	background-color:#F5F5F5;
+	border:1px solid #FFFFFF;
+	height:340px;
+	margin:10px auto 0;
+	position:relative;
+	width:680px;
+	
+    
+	-moz-box-shadow:0 0 22px #111;
+	-webkit-box-shadow:0 0 22px #111;
+	box-shadow:0 0 22px #111;
+}
+
+#slideshow ul{
+	height:320px;
+	left:10px;
+	list-style:none outside none;
+	overflow:hidden;
+	position:absolute;
+	top:10px;
+	width:620px;
+}
+
+#slideshow li{
+	position:absolute;
+	width:620px;
+	height:320px;
+	display:block;
+	
+}
+
+#slideshow li:first-child{
+	display:block;
+	z-index:1000;
+}
+
+#slideshow .slideActive{
+	z-index:1000;
+}
+
+#slideshow canvas{
+	display:none;
+	position:absolute;
+	z-index:100;
+}
+
+#slideshow .arrow{
+	height:86px;
+	width:60px;
+	position:absolute;
+	background:url('../html/img/arrows.png') no-repeat;
+	top:50%;
+	margin-top:-43px;
+	cursor:pointer;
+	z-index:5000;
+}
+
+#slideshow .previous{ background-position:left top;left:0;}
+#slideshow .previous:hover{ background-position:left bottom;}
+
+#slideshow .next{ background-position:right top;right:0;}
+#slideshow .next:hover{ background-position:right bottom;}
+
+#icon{
+  width:60px;
+  height:60px;
+}
+
+.well{
+  height: 200px;
+  width: 150px;
+  margin-left: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
